@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD4F3"
+    tools:context=".Fragment_One">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="93dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="8sp"
+        android:text="Somos fuerza de una gran nación, forjadores de unidad, nuestras mentes, nuestro corazón van en busca de verdad. Con espíritu trabajador, sin descanso hasta triunfar lucharemos siempre con valor por la paz reconquistar. Nuestro hogar, nuestro orgullo es Oriente, nuestra estrella es inmortal y en Barrios aún sigue latente el progreso cual noble ideal. Universidad Gerardo Barrios formación profesional que transforma y educa con fe en Dios el futuro nacional. Nuestro hogar, nuestro orgullo es Oriente, nuestra estrella es inmortal y en Barrios aún sigue latente el progreso cual noble ideal."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="cursive"
+        android:text="Himno UGB."
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
